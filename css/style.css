@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+body {
+  display: flex;
+  flex-direction: column;
+}
+main {
+  flex: 1;
+}
+.container-fluid a {
+  color: #fff !important;
+}
+.container-fluid .motif {
+  border: 3px solid orange;
+  padding: 5px;
+  border-radius: 50px;
+}
+.nav-item .active {
+  color: orange !important;
+}
+.dropdown-menu li a {
+  color: #000 !important;
+}
+.navbar-toggler {
+  background-color: #f5914054 !important;
+}
+.footer_content {
+  background-color: #dcdddd;
+  padding: 20px;
+  text-align: center;
+  font-size: 14px;
+  color: #6c757d;
+}
+main .content {
+  padding: 50px 100px;
+}
+div.dt-container .dt-input {
+  margin-right: 10px;
+}
+table.dataTable th.dt-type-numeric,
+table.dataTable th.dt-type-date,
+table.dataTable td.dt-type-numeric,
+table.dataTable td.dt-type-date {
+  text-align: left !important;
+}
+.placement{
+float: right;
+margin-bottom: 20px;
+}
+.element_form .soumission{
+  text-align: center;
+}
+.soumission input[type="submit"]{
+  background-color: #f59140;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px 50px;
+}
+.formulaire{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.separator1,.separator2{
+  margin: 0 50px;
+  width: 50%;
+}
+.form-text{
+  color: red !important;
+}
